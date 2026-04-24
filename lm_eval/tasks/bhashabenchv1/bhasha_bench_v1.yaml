@@ -1,0 +1,12 @@
+group: bhasha_bench_v1
+group_alias: bhasha_bench_v1
+task:
+  - bba
+  - bbf
+  - bbk
+  - bbl
+aggregate_metric_list:
+  - metric: acc
+    weight_by_size: True
+metadata:
+  version: 0.0
