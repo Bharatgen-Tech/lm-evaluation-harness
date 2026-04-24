@@ -1,0 +1,18 @@
+group: arc-challenge-indic
+task:
+- arc-challenge-indic-bn
+- arc-challenge-indic-gu
+- arc-challenge-indic-hi
+- arc-challenge-indic-kn
+- arc-challenge-indic-ml
+- arc-challenge-indic-mr
+- arc-challenge-indic-or
+- arc-challenge-indic-pa
+- arc-challenge-indic-ta
+- arc-challenge-indic-te
+
+aggregate_metric_list:
+  - metric: acc
+    weight_by_size: False
+metadata:
+  version: 0.0
